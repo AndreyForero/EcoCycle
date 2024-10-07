@@ -1,0 +1,86 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #e8f5e9; /* Fondo claro */
+    color: #333;
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    width: 60%;
+    text-align: center;
+}
+
+.franja-superior {
+    background-color: #4caf50; /* Verde reciclaje */
+    color: rgb(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.franja-inferior {
+    background-color: #2e7d32; /* Verde más oscuro para pie de página */
+    color: rgb(28, 219, 44);
+    padding: 10px 0;
+}
+
+/* Contenedor de contacto */
+.container {
+    width: 80%; /* Ajusta el ancho de la sección */
+    margin: auto; /* Centra la sección */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco para la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Títulos y texto */
+h1 {
+    text-align: center;
+    color: #2e7d32; /* Color verde para el título principal */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+label {
+    display: block; /* Cada etiqueta en una nueva línea */
+    margin-bottom: 5px; /* Espaciado inferior de las etiquetas */
+    color: #4caf50; /* Color verde para las etiquetas */
+}
+
+input, textarea {
+    width: 100%; /* Ancho completo para los campos */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado entre campos */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Esquinas redondeadas */
+}
+
+/* Botón de envío */
+button {
+    background-color: #4caf50; /* Fondo verde */
+    color: white; /* Color de texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #388e3c; /* Color verde más oscuro al pasar el ratón */
+}
+
+/* Pie de página */
+footer {
+    background-color: #2e7d32; /* Verde más oscuro para el pie de página */
+    color: rgb(28, 219, 44);
+    padding: 10px 0; /* Espaciado superior e inferior */
+    position: relative; /* Posiciona el pie de página de forma relativa */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ancho completo */
+}

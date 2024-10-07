@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Página de inicio -->
+  <url>
+    <loc>https://tudominio.com/</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- Página Mapa de Canecas -->
+  <url>
+    <loc>https://tudominio.com/mapa-de-canecas</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Página Video Interactivo -->
+  <url>
+    <loc>https://tudominio.com/video-interactivo</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Página Tips y Consejos Útiles -->
+  <url>
+    <loc>https://tudominio.com/tips-consejos-utiles</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Página ¿Cómo Reciclar? -->
+  <url>
+    <loc>https://tudominio.com/como-reciclar</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Página de Contacto -->
+  <url>
+    <loc>https://tudominio.com/contactanos</loc>
+    <lastmod>2024-10-07</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>

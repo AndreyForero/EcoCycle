@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #e8f5e9; /* Fondo claro */
+    color: #333;
+}
+
+header, footer {
+    width: 60%;
+    text-align: center;
+}
+
+.franja-superior {
+    background-color: #4caf50; /* Verde reciclaje */
+    color: rgb(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.franja-inferior {
+    background-color: #2e7d32; /* Verde más oscuro para pie de página */
+    color: rgb(28, 219, 44);
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%; /* Ajusta el ancho de la sección */
+    margin: auto; /* Centra la sección */
+    padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32; /* Color verde para el título principal */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.tip {
+    background-color: #e0f7fa; /* Fondo claro para cada tip */
+    padding: 15px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado vertical entre tips */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.tip h2 {
+    color: #4caf50; /* Color verde para los títulos de tips */
+}
+
+.tip p {
+    color: #333; /* Color para el texto */
+}
+
+.tip img {
+    width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+}
+
+footer {
+    background-color: #2e7d32; /* Verde más oscuro para el pie de página */
+    color: rgb(28, 219, 44);
+    padding: 10px 0; /* Espaciado superior e inferior */
+    position: relative; /* Posiciona el pie de página de forma relativa */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%; /* Ancho completo */
+}

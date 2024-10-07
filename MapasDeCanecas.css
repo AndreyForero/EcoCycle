@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box; /* Asegura que el padding y el borde no afecten el tamaño de los elementos */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Color claro para fondo */
+    color: #333;
+    margin: 0;
+    height: 100vh; /* Altura de la ventana completa */
+    display: flex;
+    flex-direction: column; /* Alinea el header, main y footer en una columna */
+}
+
+header {
+    background-color: #4caf50; /* Verde reciclaje */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    flex: 1; /* Permite que el main ocupe el espacio restante */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Alinea los elementos en una columna */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+    width: 80%; /* Ancho del contenedor */
+}
+
+.map {
+    width: 100%; /* Ancho del mapa */
+    height: 500px; /* Altura del mapa */
+    margin: 20px 0; /* Espaciado vertical */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.info-box {
+    margin: 20px auto; /* Espaciado y centrado horizontal */
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Ancho del cuadro de información */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Centra el texto dentro del cuadro de información */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50; /* Verde reciclaje */
+    color: white;
+}
+
+.mapa-canecas{
+    text-align: center;
+}

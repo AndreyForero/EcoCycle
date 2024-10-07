@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #e8f5e9; /* Fondo claro */
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    width: 60%;
+    text-align: center;
+}
+
+.franja-superior {
+    background-color: #4caf50; /* Verde reciclaje */
+    color: rgb(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.franja-inferior {
+    background-color: #2e7d32; /* Verde más oscuro para pie de página */
+    color: rgb(28, 219, 44);
+    padding: 10px 0;
+    position: below; /* Posiciona el pie de página de forma fija */
+    bottom: 0; /* Fija el pie de página en la parte inferior de la ventana */
+    width: 100%;
+}
+
+.container {
+    flex: 1; /* Permite que el main ocupe el espacio restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-container {
+    
+        width: 50%; /* Ancho del mapa */
+        height: 250px; /* Altura del mapa */
+        margin: 20px 0; /* Espaciado vertical */
+        border-radius: 10px; /* Esquinas redondeadas */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    
+}
+
+.info-box {
+    width: 80%;
+    padding: 20px;
+    background-color: rgb(41, 194, 61);
+    box-shadow: 0 4px 8px rgb(14, 122, 14);
+    margin: 20px 0;
+}
